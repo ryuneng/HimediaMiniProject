@@ -1,0 +1,23 @@
+.banner { /* 메인 배너 */
+    width: 100%;
+    height: 400px;
+    background-image: url(img/cat_big.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.section {
+    display: flex; /* main_text, main_cat 한줄에 */
+    justify-content: space-evenly; /* 아이템들을 수평방향으로 양옆에 일정 공간을 가지고 배치 */
+    padding-top: 20px;
+    width: 100%;
+}
+
+.main_text {
+    width: 700px;
+}
+
+.main_cat img {
+    width: 350px;
+}
