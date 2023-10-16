@@ -5,6 +5,7 @@ footer {
     display: flex; /* footer 안에 있는 아이템(p)들이 footer 안에서 가로로 나열됨 */
     justify-content: center; /* 아이템(p) 수평 정렬 */
     align-items: center; /* 아이템(p) 수직 정렬 */
+    border-top: 1px solid lightgray;
 }
 
 footer p {

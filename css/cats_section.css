@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GmarketSansMedium';
+}
+
+.banner { /* 메인 배너 */
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/painter_cat.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cats_section {
+    display: flex; /* main_text, main_cat 한줄에 */
+    justify-content: space-evenly; /* 아이템들을 수평방향으로 양옆에 일정 공간을 가지고 배치 */
+    align-items: center; /* 아이템 수직 정렬 */
+    padding-top: 20px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+.cats_text {
+    width: 700px;
+}
+.cats_img img {
+    width: 500px;
+}
