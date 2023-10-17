@@ -60,3 +60,16 @@
     border: 1px solid lightgray;
     border-radius: 10px;
 }
+
+.mycat_button {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mycat_button button {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px; /* 버튼사이 간격 */
+    font-size: 13px;
+}

@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/main_section.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script src="../jquery-3.7.1.js"></script>
+	<script src="../jquery-migrate-3.4.0.js"></script>
+    <script>
+        $(function() {
+            $(".main_text h1").mouseover(function() {
+                $(".main_text h1").css("background-color", "#FBC02D")
+            });
+            $(".main_text h1").mouseout(function() {
+                $(".main_text h1").css("background-color", "white")
+            });
+        })
+    </script>
 </head>
 <body>
     <!-- header -->

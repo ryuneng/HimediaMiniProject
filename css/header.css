@@ -36,6 +36,7 @@ header .container {
 }
 
 .container .logo {
+    display: block; /* a태그 전체가 클릭 영역이 되도록 */
     font-size: 40px;
     font-weight: bold;
     font-family: 'GangwonEduPowerExtraBoldA';

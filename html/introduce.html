@@ -6,6 +6,18 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/introduce_section.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script src="../jquery-3.7.1.js"></script>
+	<script src="../jquery-migrate-3.4.0.js"></script>
+    <script>
+        $(function() {
+            $(".introduce_section span").mouseover(function() {
+                $(".introduce_section span").css("color", "#FBC02D")
+            });
+            $(".introduce_section span").mouseout(function() {
+                $(".introduce_section span").css("color", "black")
+            });
+        })
+    </script>
 </head>
 <body>
     <!-- header -->
@@ -28,7 +40,7 @@
     </main>
     <section class="introduce_section">
         <div>
-            <h1>집사나라 소개</h1>
+            <h1><span>집사나라 소개</span></h1>
             <p>I`m Web Publisher And Web Front-End Developer.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis aperiam accusantium.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium doloremque quos quis est officiis.</p>
