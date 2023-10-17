@@ -35,8 +35,8 @@
     line-height: 50px;
 }
 
-.section1_text span {
-    color: #FBC02D;
+.section1_text .highlight {
+    color:#FBC02D;
 }
 
 /* -- section2 -- */ /* 각 다른 줄의 li들을 모두 동일하게 적용하기 위해 .section2 div 로 지정 */

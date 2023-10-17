@@ -53,5 +53,5 @@ header li {
 
 nav li a:hover {
     color: rgb(102, 102, 102); /* 메뉴 마우스 오버 */
-    border-bottom: 2px solid #FFE281;
+    border-bottom: 2px solid #FBC02D;
 }

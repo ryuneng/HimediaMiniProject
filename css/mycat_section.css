@@ -10,20 +10,24 @@
 }
 
 /* -- section1 -- */
-.mycat_section {
+.section1 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 50px;
+}
+
+.section1_banner {
     display: flex; /* cats_text, cats_img 한줄에 */
     justify-content: space-evenly; /* 아이템 양쪽에 일정의 공간을 두고 수평 정렬 */
     align-items: center; /* 아이템 수직 정렬*/
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.mycat_img img {
+.section1_img img {
     height: 300px;
     padding-left: 300px;
 }
 
-.mycat_text {
+.section1_text {
     width: 500px;
     padding-right: 300px;
     font-size: 40px;
@@ -31,6 +35,11 @@
 }
 
 /* -- section2 -- */ /* 각 다른 줄의 li들을 모두 동일하게 적용하기 위해 .section2 div 로 지정 */
+.section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .section2 div {
     height: auto;
     display: flex; /* 컨테이너를 세로로 배치 (inline-flex는 가로 배치) - 수평정렬됨, 아이템들의 원활한 정렬을 위해 */
@@ -48,6 +57,6 @@
     display: inline-block; /* 컨텐츠를 감쌀 정도의 크기로 지정하지만, 임의로 크기 변경 가능 */
     width: 300px;
     height: 300px;
-    border: 1px solid gray;
-    background-color:bisque;
+    border: 1px solid lightgray;
+    border-radius: 10px;
 }
