@@ -48,8 +48,7 @@ a, a:link, a:visited {
 
 header li {
     list-style: none; /* 메뉴 리스트 기호 제거 */
-    font-family: 'GmarketSansMedium'
-    
+    font-family: 'GmarketSansMedium';
 }
 
 nav li a:hover {

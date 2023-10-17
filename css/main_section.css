@@ -20,8 +20,8 @@
 
 .main_section {
     display: flex; /* main_text, main_cat 한줄에 */
-    justify-content: space-evenly; /* 아이템들을 수평방향으로 양옆에 일정 공간을 가지고 배치 */
-    align-items: center; /* 아이템 수직 정렬 */
+    justify-content: space-evenly; /* 아이템들을 양옆에 일정 공간을 가지고 수직 정렬 */
+    align-items: center; /* 아이템 수평 정렬 */
     padding-top: 20px;
     padding-bottom: 200px;
     width: 100%;
