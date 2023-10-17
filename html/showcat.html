@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <title>집사나라 😺</title>
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/tip_section.css">
+    <link rel="stylesheet" href="../css/showcat_section.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../jquery-3.7.1.js"></script>
 	<script src="../jquery-migrate-3.4.0.js"></script>
+    <script>
+        $(function() {
+            $(".section1_text").mouseover(function() {
+                $(".section1_text").css("color", "#FBC02D")
+            });
+            $(".section1_text").mouseout(function() {
+                $(".section1_text").css("color", "black")
+            });
+        })
+    </script>
 </head>
 <body>
     <!-- header -->
@@ -24,29 +34,44 @@
             </nav>
         </div>
     </header>
-    <!-- Menu3_tip -->
+    <!-- Menu2_cats -->
     <section class="section1">
         <div class="section1_banner">
             <div class="section1_img">
-                <img src="../img/tip.png" alt="">
+                <img src="../img/showcat.png" alt="">
             </div>
             <div class="section1_text">
-                <h1>양육 <span class="highlight">꿀팁</span>을</h1>
-                <h1>공유해주세요 😸</h1>
+                <h1>우리 고양이를</h1>
+                <h1>소개합니다</h1>
             </div>
         </div>
     </section>
-    <section class="tip_section">
-        <div class="tip_list">
+    <section class="section2">
+        <div class="showcat_list">
             <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
         </div>
-        <div class="tip_button">
+        <div class="showcat_list2">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="showcat_list3">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="showcat_button">
             <button><a href=""><<</a></button>
             <button><a href=""><</a></button>
             <button><a href="">1</a></button>

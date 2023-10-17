@@ -11,7 +11,6 @@
 
 /* -- section1 -- */
 .section1 {
-    padding-bottom: 50px;
     height: 260px;
 }
 
@@ -23,14 +22,14 @@
 }
 
 .section1_img img {
-    height: 200px;
+    height: 100px;
     padding-left: 300px;
 }
 
 .section1_text {
     width: 500px;
-    padding-right: 300px;
-    font-size: 40px;
+    padding-right: 200px;
+    font-size: 30px;
     line-height: 50px;
 }
 
@@ -40,7 +39,6 @@
 
 /* -- tip_section -- */
 .tip_section {
-    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center; /* 리스트 가운데 정렬 */
 }
@@ -59,6 +57,7 @@
     list-style: none;
     text-align: left;
     padding-top: 5px;
+    padding-left: 20px;
 }
 
 .tip_section div ul li:not(:first-child) {

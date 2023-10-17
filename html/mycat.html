@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="../css/footer.css">
     <script src="../jquery-3.7.1.js"></script>
 	<script src="../jquery-migrate-3.4.0.js"></script>
+    <script>
+        $(function() {
+            $(".introduce_section span").mouseover(function() {
+                $(".introduce_section span").css("color", "#FBC02D")
+            });
+            $(".introduce_section span").mouseout(function() {
+                $(".introduce_section span").css("color", "black")
+            });
+        })
+    </script>
 </head>
 <body>
     <!-- header -->
@@ -16,69 +26,33 @@
             <h1><a href="main.html" class="logo">JIPSANARA</a></h1>
             <nav>
                 <ul class="nav">
-                    <li><a href="introduce.html">집사나라소개</a></li>
-                    <li><a href="mycat.html">고양이자랑</a></li>
-                    <li><a href="tip.html">지식공유</a></li>
+                    <li><a href="mycat.html">내 반려묘 정보</a></li>
+                    <li><a href="showcat.html">고양이자랑</a></li>
+                    <li><a href="tip.html">커뮤니티</a></li>
                     <li><a href="notice.html">공지사항</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <!-- Menu2_cats -->
-    <section class="section1">
-        <div class="section1_banner">
-            <div class="section1_img">
-                <img src="../img/mycat.png" alt="">
-            </div>
-            <div class="section1_text">
-                <h1>우리 고양이를</h1>
-                <h1>소개합니다</h1>
-            </div>
-        </div>
-    </section>
-    <section class="section2">
-        <div class="mycat_list">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-        <div class="mycat_list2">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-        <div class="mycat_list3">
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-        <div class="mycat_button">
-            <button><a href=""><<</a></button>
-            <button><a href=""><</a></button>
-            <button><a href="">1</a></button>
-            <button><a href="">2</a></button>
-            <button><a href="">3</a></button>
-            <button><a href="">4</a></button>
-            <button><a href="">5</a></button>
-            <button><a href="">6</a></button>
-            <button><a href="">7</a></button>
-            <button><a href="">8</a></button>
-            <button><a href="">9</a></button>
-            <button><a href="">10</a></button>
-            <button><a href="">></a></button>
-            <button><a href="">>></a></button>
+    <!-- Menu1_introduce -->
+    <main class="main">
+        <div class="banner"></div>
+    </main>
+    <section class="mycat_section">
+        <div>
+            <h1><span>집사나라 소개</span></h1>
+            <p>I`m Web Publisher And Web Front-End Developer.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis aperiam accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium doloremque quos quis est officiis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis quibusdam.</p>
+            <p>I`m Web Publisher And Web Front-End Developer.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis aperiam accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium doloremque quos quis est officiis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis quibusdam.</p>
+            <p>I`m Web Publisher And Web Front-End Developer.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis aperiam accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit praesentium doloremque quos quis est officiis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, omnis quibusdam.</p>
         </div>
     </section>
     <!-- footer -->
