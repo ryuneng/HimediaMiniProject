@@ -11,7 +11,6 @@
 
 /* -- section1 -- */
 .section1 {
-    border-bottom: 1px solid lightgray;
     padding-bottom: 50px;
     height: 260px;
 }
@@ -39,29 +38,50 @@
     color: #FBC02D;
 }
 
-/* -- section2 -- */ /* 각 다른 줄의 li들을 모두 동일하게 적용하기 위해 .section2 div 로 지정 */
-.section2 {
+/* -- tip_section -- */
+.tip_section {
     padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center; /* 리스트 가운데 정렬 */
+}
+
+.tip_section div {
+    height: auto;
+    justify-content: space-around;
+}
+
+.tip_section div ul li {
+    display: inline-block; /* 컨텐츠를 감쌀 정도의 크기로 지정하지만, 임의로 크기 변경 가능 */
+    width: 1000px;
+    height: 100px;
+    border-left: none;
+    border-right: none;
+    list-style: none;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.tip_section div ul li:not(:first-child) {
+    border-top: 1px solid lightgray; /* 선 중첩되지 않게 리스트 중 가장 첫번째 자식을 제외한 나머지에만 border-top 적용 */
+}
+
+.tip_list ul li:nth-child(1){
+    border-top: 1px solid lightgray; /* 리스트 가장 첫번째 자식만 border-top 적용 */
+}
+
+.tip_list ul li:last-child{
+    border-bottom: 1px solid lightgray; /* 리스트 마지막 자식만 border-bottom 적용 */
+}
+
+.tip_button {
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
-.section2 div {
-    height: auto;
-    display: flex; /* 컨테이너를 세로로 배치 (inline-flex는 가로 배치) - 수평정렬됨, 아이템들의 원활한 정렬을 위해 */
-    justify-content: center; /* 수직정렬 */
-    align-items: center;
-}
-
-.section2 div li {
-    display: inline-block; /* list 가로 정렬 (한줄에) */
-    margin: 0 30px; /* 사진 리스트 사이 간격 */
-    list-style: none;
-}
-
-.section2 div ul li a {
-    display: inline-block; /* 컨텐츠를 감쌀 정도의 크기로 지정하지만, 임의로 크기 변경 가능 */
-    width: 300px;
-    height: 300px;
-    border: 1px solid lightgray;
+.tip_button button {
+    border: none;
     border-radius: 10px;
+    background-color: white;
+    margin: 5px; /* 버튼사이 간격 */
+    font-size: 13px;
 }
