@@ -28,6 +28,15 @@ header .container {
     margin: 0 auto; /* 제한되어 있는 영역(width:90%)을 항상 수평 기준으로 중앙에 오게 */
     display: flex; /* 컨테이너를 세로로 배치 (inline-flex는 가로 배치) - 아이템들의 원활한 정렬을 위해 */
     align-items: center;
+    justify-content: space-around; /* */
+}
+
+.logo_sction, .nav_section, .login_section {
+    flex: none; /* header 아이템들 크기 고정 */
+}
+
+.login_section {
+    margin-left: auto; /* 로그인 메뉴 우측으로 */
 }
 
 .container nav ul li {
