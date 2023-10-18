@@ -18,20 +18,16 @@ body, header { /* 초기화 */
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-}
-
 header .container {
     width: 90%;
     height: 80px;
     margin: 0 auto; /* 제한되어 있는 영역(width:90%)을 항상 수평 기준으로 중앙에 오게 */
     display: flex; /* 컨테이너를 세로로 배치 (inline-flex는 가로 배치) - 아이템들의 원활한 정렬을 위해 */
-    align-items: center;
+    align-items: center; /* 수평정렬 */
     justify-content: space-around; /* */
 }
 
-.logo_sction, .nav_section, .login_section {
+.logo_section, .nav_section, .login_section {
     flex: none; /* header 아이템들 크기 고정 */
 }
 

@@ -10,11 +10,11 @@
 	<script src="../jquery-migrate-3.4.0.js"></script>
     <script>
         $(function() {
-            $(".introduce_section span").mouseover(function() {
-                $(".introduce_section span").css("color", "#FBC02D")
+            $(".info .title h3").mouseover(function() {
+                $(".info .title h3").css("color", "#FBC02D")
             });
-            $(".introduce_section span").mouseout(function() {
-                $(".introduce_section span").css("color", "black")
+            $(".info .title h3").mouseout(function() {
+                $(".info .title h3").css("color", "black")
             });
         })
     </script>
@@ -23,7 +23,7 @@
     <!-- header -->
     <header>
         <div class="container">
-            <div class="logo_sction"><h1><a href="main.html" class="logo">JIPSANARA</a></h1></div>
+            <div class="logo_section"><h1><a href="index.html" class="logo">JIPSANARA</a></h1></div>
             <nav class="nav_section">
                 <ul class="nav">
                     <li><a href="mycat.html">내 반려묘 정보</a></li>
@@ -32,12 +32,12 @@
                     <li><a href="notice.html">공지사항</a></li>
                 </ul>
             </nav>
-            <nav class="login_section">
-                <ul class="login_section">
-                    <li><a href="">로그인</a></li>
-                    <li><a href="">회원가입</a></li>
+            <nav class="user_section">
+                <ul class="user_section">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="signup.html">회원가입</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
     <!-- Menu1_mycat -->
@@ -60,7 +60,7 @@
                     <h2>심장사상충 예방 <input type="checkbox" checked disabled><span> 2023.10.18</span></h2>
                     <h2>광견병 예방<input type="checkbox" checked disabled><span> 2023.10.18</span></h2>
                 </div>
-                <button>정보 수정</button>
+                <button><a href="#">정보 수정</a></button>
             </div>
             <div class="mycat_contents">
                 <img class="mycat2" src="" alt="">
@@ -73,7 +73,7 @@
                     <h2>심장사상충 예방 <input type="checkbox" checked disabled><span> 2023.10.18</span></h2>
                     <h2>광견병 예방<input type="checkbox" checked disabled><span> 2023.10.18</span></h2>
                 </div>
-                <button>정보 수정</button>
+                <button><a href="#">정보 수정</a></button>
             </div>
         </div>
     </section>
