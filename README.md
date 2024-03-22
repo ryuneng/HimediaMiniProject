@@ -1,6 +1,6 @@
 <h1>Himeida_MiniProject</h1>
 
-> 🧑🏻‍💻 <b>Links</b> <a target="_blank">[http://ryuneng.github.io/himedia-mini-project](https://ryuneng.github.io/himedia-mini-project/)</a><br>
+> 🔗 <b>Link</b> | <a target="_blank">[http://ryuneng.github.io/himedia-mini-project](https://ryuneng.github.io/himedia-mini-project/)</a><br>
 
 <br>
 
